@@ -80,8 +80,8 @@ ol>li:first-child {
 .text {
     text-decoration: solid;
     margin: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 25px;
     text-align: left;
 }
@@ -106,8 +106,8 @@ ol>li:first-child {
 
   .text2 {
     text-decoration: solid;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 165px;
+    margin-right: 165px;
     font-size: 25px;
     text-align: left;
   }
@@ -115,6 +115,6 @@ ol>li:first-child {
   .dane {
     margin-left: 15px;
     margin-right: 15px;
-    width: 15%;
+    width: 11%;
     height: 710px;
   }
