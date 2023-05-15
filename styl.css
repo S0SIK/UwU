@@ -4,7 +4,7 @@ body {
     font-family: monospace;
     font-size: 20px;
     margin: 0 !important;
-    color: white;
+    color: 2e2b3c;
 }
 
 .all {
@@ -16,7 +16,6 @@ body {
     z-index: 1;
     position: fixed;
     width: 100%;
-    background-color: #142729;
 }
 
 .wstawka {
@@ -36,9 +35,9 @@ body {
     width: 210%;
     padding: 3px 0;
     height: 30px;
-    background: #202132;
-    border-top: 3px solid #11facd;
-    border-bottom: 3px solid #11facd;
+    background: #2e2b3c;
+    border-top: 3px solid #f5b1fa;
+    border-bottom: 3px solid #f5b1fa;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -60,95 +59,62 @@ ol a {
     display: block;
     color: white;
     width: 100%;
+    margin-top: 5px;
 }
 
 ol>li {
     float: left;
     width: 16.309%;
     height: 100%;
-    border-right: 3px solid #11facd;
+    border-right: 3px solid #f5b1fa;
 }
 
 ol>li:hover {
-    background-color: #1e1579;
+    background-color: #795b7c;
 }
 
 ol>li:first-child {
-    border-left: 3px solid #11facd;
+    border-left: 3px solid #f5b1fa;
 }
 
 .text {
     text-decoration: solid;
     margin: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 25px;
     text-align: left;
 }
 
-.scroll {
-    overflow: hidden;
-    overflow-y: scroll;
-    height: 85%;
-}
-
-.punkt {
-position: relative;
-cursor: pointer;
-}
-
-.visible {
-position: absolute;
-top: -20;
-transform: translateX(-50%);
-background-color: #202132;
-color: #11facd;
-text-align: center;
-white-space: nowrap;
-padding: 4px 4px;
-border-radius: 7px;
-visibility: hidden;
-opacity: 0,01;
-transition: opacity 0.5s ease;
-}
-
-.punkt:hover .visible {
-    top: -100%;
-    visibility: visible;
-    opacity: 1;
-}
-
-
-.zoom {
-    width: 100%;
-    height: 100%;
-    transform-origin: 0px 0px;
-    transform: scale(1) translate(0px, 0px);
-    cursor: grab;
-  }
-
-  div#zoom > img {
-    width: 100%;
-    height: auto;
-  }
-
-  .produkt {
-    padding-top: 5px;
-    display: flex;
+  .button {
     text-align: center;
+    position: static;
+    width: 100%;
+    color: #fee1cf;
+    background-color: #795b7c;
+    font-size: 20px;
+    border-color: #f5b1fa;
   }
 
-  .ramka {
-    border-top: 1px solid #11facd;
-    border-left: 1px solid #11facd;
-    border-right: 1px solid #11facd;
-    border-bottom: 1px solid #11facd;
-    border-radius: 2px;
-  }
-
-  .cena {
+  .nav2 {
     padding-top: 5px;
-    padding-left: 5px;
-    size: 30px;
-    color: #ff0000;
+    width: 210%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .text2 {
+    text-decoration: solid;
+    margin-left: 165px;
+    margin-right: 165px;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .dane {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 11%;
+    height: 710px;
   }
