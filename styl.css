@@ -97,8 +97,10 @@ ol>li:first-child {
   }
 
   .nav2 {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 25px;
   }
 
   .text2 {
