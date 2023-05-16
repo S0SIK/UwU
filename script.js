@@ -77,6 +77,8 @@ text.forEach(x => {
 
 console.log(pracownik)
 
+//sortowanie pracownika według punktów 
+
 // let sortPracownik = [];
 // for (var value in pracownik) {
   
@@ -97,6 +99,7 @@ let zle = text.filter(x => {
   return true;
 });
     
+// wysyłanie na stronę 
 for (const [player, value] of Object.entries(res)) {
     const htmKlient = `${Lok(value, 2)} | ${player}\n`;
     const blipKlient = document.getElementById("Klient")
