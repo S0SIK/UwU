@@ -95,6 +95,7 @@ ol>li:first-child {
 .punkt {
 position: relative;
 cursor: pointer;
+width: 25px;
 }
 
 .visible {
