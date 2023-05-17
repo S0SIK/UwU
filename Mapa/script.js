@@ -68,12 +68,16 @@ for (const [data1, value1] of Object.entries(data)) {
       `<div class="punkt" style="position: relative; left: ${left}px; bottom:  ${bottom}px">
       <img class="punkt" width="25" height="25" src="../img/${Blip}.png" alt="...">
       <div class="visible">
-    <div>${Tytuł}</div>
+    <div class="text">${Tytuł}</div>
     <img width="450" height="225" src="${Png}">
     <div class="produkt">
-      <div class="cena">Dnia 11.05.2023</Div></br>
-      <div class="cena">W tym miejscu został pochowany</Div></br>
-      <div class="cena">Jack Hillson</Div>
+      <div class="cena">Dnia 11.05.2023</div>
+      </div>
+      <div class="produkt">
+      <div class="cena">W tym miejscu został pochowany</div>
+      </div>
+      <div class="produkt">
+      <div class="cena">Jack Hillson</div>
     </div>
       </div>`;
 
