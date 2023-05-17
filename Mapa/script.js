@@ -66,7 +66,7 @@ for (const [data1, value1] of Object.entries(data)) {
 
     const htm =
       `<div class="punkt" style="position: relative; left: ${left}px; bottom:  ${bottom}px">
-      <img class="punkt" width="15" height="15" src="../img/${Blip}.png" alt="...">
+      <img class="punkt" width="25" height="25" src="../img/${Blip}.png" alt="...">
       <div class="visible">
     <div>${Tytuł}</div>
     <img width="450" height="225" src="${Png}">
