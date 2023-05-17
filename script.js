@@ -75,20 +75,6 @@ text.forEach(x => {
   }
 });
 
-console.log(pracownik)
-
-// let sortPracownik = [];
-// for (var value in pracownik) {
-  
-//   console.log(pracownik[value], value)
-//   sortPracownik.push(pracownik[value]);
-//   console.log(sortPracownik)
-// }
-// sortPracownik.sort(function(a, b) {
-//   return b - a;
-//});
-
-
 // Szukanie błędów
 let zle = text.filter(x => {
   if (x.includes("—") || x.includes("+") || x.includes("|")) {
@@ -97,16 +83,29 @@ let zle = text.filter(x => {
   return true;
 });
     
-for (const [player, value] of Object.entries(res)) {
-    const htmKlient = `${Lok(value, 2)} | ${player}\n`;
+// sortowanie klientów
+function sortObject(obj) {
+  return Object.keys(obj).sort().reduce(function (result, key) {
+      result[key] = obj[key];
+      return result;
+  }, {});
+}
+
+// sortowanie pracowników
+const sortPracownik = Object.fromEntries(
+  Object.entries(pracownik).sort(([,a],[,b]) => b-a)
+);
+
+// Odpowiedzi na serwer
+for (const [player, value] of Object.entries(sortObject(res))) {
+    const htmKlient = `${Lok(value, 2)} | ${Lok(player, 25)}a\n`;
     const blipKlient = document.getElementById("Klient")
     blipKlient.insertAdjacentHTML("beforeend", htmKlient);
 }
 
-for (const [player, value] of Object.entries(pracownik)) {
-  console.log(`P: ${player}`)
-  console.log(`v: ${value}`)
-    const htmPracownik = `${Lok(value, 2)} | ${player}\n`;
+for (const [player, value] of Object.entries(sortPracownik)) {
+    const htmPracownik = `${Lok(value, 2)} | ${player}\n`
+ 
     const blipPracownik = document.getElementById("Pracownik")
     blipPracownik.insertAdjacentHTML("beforeend", htmPracownik);
 }
