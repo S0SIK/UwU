@@ -74,7 +74,7 @@ for (const [data1, value1] of Object.entries(data)) {
       <div class="cena">Dnia 11.05.2023</div>
       </div>
       <div class="produkt">
-      <div class="cena">W tym miejscu został pochowany</div>
+      <div class="cena1">W tym miejscu został pochowany</div>
       </div>
       <div class="produkt">
       <div class="cena2">Jack Hillson</div>
