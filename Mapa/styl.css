@@ -148,7 +148,6 @@ transition: opacity 0.5s ease;
   }
 
   .cena {
-    text-align: center;
     padding-top: 5px;
     padding-left: 5px;
     size: 30px;
@@ -156,15 +155,13 @@ transition: opacity 0.5s ease;
   }
 
   .cena2 {
-    text-align: center;
     padding-top: 5px;
     padding-left: 5px;
     size: 50px;
     color: #ff0000;
   }
 
-  .text {
-    text-align: center;
+  .text2 {
     size: 40px;
     color: #11facd;
   }
