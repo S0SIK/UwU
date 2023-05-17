@@ -99,6 +99,7 @@ cursor: pointer;
 
 .visible {
 position: absolute;
+size: 10%;
 top: -20;
 transform: translateX(-50%);
 background-color: #202132;
