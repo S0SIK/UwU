@@ -44,8 +44,8 @@ for (const [data1, value1] of Object.entries(data)) {
   for (const [data2, value2] of Object.entries(value1)) {
       const Blip = value2.Blip
       const Tytuł = value2.Tytuł
-      const left = value2.GPS.left
-      const bottom = value2.GPS.bottom
+      const left = value2.left
+      const bottom = value2.bottom
       const Png = value2.Png
       const Opis = value2.Opis
       const Produkt = value2.Produkt
