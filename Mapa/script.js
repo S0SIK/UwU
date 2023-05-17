@@ -72,8 +72,8 @@ for (const [data1, value1] of Object.entries(data)) {
     <img width="150" height="75" src="${Png}">
     <div class="produkt">
       <div class="cena">Dnia 11.05.2023</Div>
-      div class="cena">W tym miejscu został pochowany</Div>
-      div class="cena">Jack Hillson</Div>
+      <div class="cena">W tym miejscu został pochowany</Div>
+      <div class="cena">Jack Hillson</Div>
     </div>
       </div>`;
 
