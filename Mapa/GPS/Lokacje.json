@@ -1,23 +1,4 @@
 {
-    "Testowy":{
-        "Blip": " ",
-        "Tytuł": " ",
-        "GPS": {
-             "left": " ",
-             "bottom": " "
-            },
-        "Png": " ",
-        "Opis": " ",
-        "Produkt": " ",
-        "Cena": " ",
-        "Craft_1": " ",
-        "Craft_2": " ",
-        "Craft_3": " ",
-        "Craft_4": " "
-    },
-
-
-
     "Gora": {
         "Góra": {
             "Blip": "Kojot",
