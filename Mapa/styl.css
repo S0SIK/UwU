@@ -149,14 +149,14 @@ transition: opacity 0.5s ease;
 
   .cena {
     padding-top: 5px;
-    padding-left: 55px;
+    padding-left: 132px;
     size: 30px;
     color: #d10202;
   }
 
   .cena1 {
     padding-top: 5px;
-    padding-left: 132px;
+    padding-left: 55px;
     size: 30px;
     color: #d10202;
   }
